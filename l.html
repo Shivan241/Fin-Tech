@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Login Page</title>
+  <style>
+    /* Background styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+      overflow: hidden;
+    }
+
+    /* Animated scientific background (grid + molecules) */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: 
+        url("https://www.transparenttextures.com/patterns/cubes.png"); /* scientific grid */
+      opacity: 0.15;
+      animation: moveBg 20s linear infinite;
+    }
+
+    @keyframes moveBg {
+      0% { background-position: 0 0; }
+      100% { background-position: 500px 500px; }
+    }
+
+    /* Login box with animated border */
+    .login-box {
+      position: relative;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      width: 350px;
+      border: 4px solid transparent;
+      border-radius: 15px;
+      color: #fff;
+      animation: borderAnimation 6s linear infinite;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+    }
+
+    @keyframes borderAnimation {
+      0% {
+        border-image: linear-gradient(45deg, #00f5d4, #9b5de5, #f15bb5, #fee440) 1;
+      }
+      50% {
+        border-image: linear-gradient(225deg, #fee440, #f15bb5, #9b5de5, #00f5d4) 1;
+      }
+      100% {
+        border-image: linear-gradient(45deg, #00f5d4, #9b5de5, #f15bb5, #fee440) 1;
+      }
+    }
+
+    /* Form styling */
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #00f5d4;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      background: #1a1a1a;
+      color: #fff;
+    }
+
+    .login-box input[type="submit"] {
+      background: linear-gradient(90deg, #00f5d4, #9b5de5);
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background: linear-gradient(90deg, #9b5de5, #00f5d4);
+      box-shadow: 0 0 15px #00f5d4;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>🔬 Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+<!---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-shopping website</title>
+  <link rel="stylesheet" href="l.css">
+
+  
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login to Your Account</h2>
+    <form id="loginForm" method="POST">
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn">Login</button>
+      </div>
+      <p class="signup-link">Don't have an account? <a href="register.html">Sign Up</a></p>
+      <p class="forgot-password"><a href="forgot-password.html">Forgot Password?</a></p>
+    </form>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html> 
+-->
