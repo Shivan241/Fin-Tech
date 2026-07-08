@@ -188,7 +188,15 @@ JavaScript  █████████                20%
 
 # 🌍 Live Demo
 
-shivan241.github.io/Fin-Tech/
+<p align="center">
+
+<a href="https://shivan241.github.io/Fin-Tech/" target="_blank">
+  <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-00C853?style=for-the-badge" alt="Live Demo">
+</a>
+
+</p>
+
+> 🔗 **Website:** https://shivan241.github.io/Fin-Tech/
 
 ---
 
