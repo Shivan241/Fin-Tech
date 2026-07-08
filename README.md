@@ -134,9 +134,17 @@ No installation required.
 
 # 📸 Website Preview
 
-| Home | Login |
-|------|------|
-| <img src="assets/homepage.png"> | <img src="assets/login.png"> |
+<div align="center">
+
+<a href="assets/homepage.png">
+  <img src="homepage(1).png" alt="Home Page" width="320"/>
+</a>
+
+<a href="assets/login.png">
+  <img src="login(1).png" alt="Login Page" width="320"/>
+</a>
+
+</div>
 
 ---
 
