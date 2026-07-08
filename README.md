@@ -214,9 +214,7 @@ If you like this project
 
 <div align="center">
 
-## Developed with ❤️ by Shivan
-
-<img src="assets/logo.png" width="120">
+## Developed by Shivan
 
 Made using HTML • CSS • JavaScript
 
