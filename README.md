@@ -188,7 +188,7 @@ JavaScript  █████████                20%
 
 # 🌍 Live Demo
 
-Coming Soon
+shivan241.github.io/Fin-Tech/
 
 ---
 
